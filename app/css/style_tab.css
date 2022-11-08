@@ -1,0 +1,72 @@
+/* Style pour vueDisplaybus.php
+-----------------------------*/
+
+table
+{
+  border-collapse: collapse;
+  margin: auto;
+  background-color: white
+}
+
+.map
+{
+  text-align : center;
+}
+
+.captureMsg
+{
+  text-align : center;
+  color: blue
+}
+
+td, th /* Mettre une bordure sur les td ET les th */
+{
+  border: 1px solid black;
+}
+
+td
+{
+  text-align :center;
+}
+
+h1,h2,h3,h4
+{
+  text-align :center;
+  font-family: Calibri;
+}
+
+
+body
+{
+  background-color: #81BEF7;
+  /* background: url("../images/blue.jpg") fixed no-repeat center;  */
+}
+
+.capture
+{
+  font-size: 100%;
+  font-style: normal;
+  font-weight: lighter;
+}
+
+.capture a
+{
+  text-decoration: none;
+  color:black;
+}
+
+.capture a:hover
+{
+  color: rgb(200,20,20);
+}
+
+fieldset
+{
+  text-align :center;
+  border: medium none !important;
+  min-width: 100%;
+  /* padding: 0; */
+  display:block;
+  width:150px;
+  margin:auto;
+}
